@@ -13,11 +13,18 @@
 #canvas>div {
     border: 1px solid black;
     height: 25px;
-    width: 25px;
+    width: calc(100% * (1/16));
 }
 
 .black {
     background-color: black;
+}
+
+#size {
+    display: block;
+    margin: auto;
+    margin-bottom: 20px;
+    padding: 5px;
 }
 
 #clear {
